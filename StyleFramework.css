@@ -1,5 +1,5 @@
 .headerS1 {
-    background-color: rgba(51, 51, 51, 0.685);
+    background-color: rgb(100, 100, 100);
     height: 100px;
     box-shadow: -29px 26px 93px 14px rgba(0, 0, 0, 0.71);
     display: flex;
@@ -8,28 +8,32 @@
 }
 
 .headerS1 a {
-    color: rgb(185, 185, 185);
-    margin-left: 16px;
+    color: rgb(231, 230, 230);
+    margin-left: 15px;
+    margin-right: 15px;
     text-decoration: none;
-    background-color: rgba(58, 58, 58, 0.664);
-    padding: 10px;
-    border: 1px solid rgb(150, 150, 150);
-    font-weight: 400;
+    background-color: rgba(73, 73, 73, 0.842);
+    padding: 12px;
+    border: 2px solid rgb(138, 138, 138);
+    font-weight: bold;
+    font-size: large;
 }
 
 .headerS1 a:hover {
-    border: 2px solid rgb(150, 150, 150);
+    border: 2px solid rgb(185, 185, 185);
     font-weight: bolder;
+    background-color: rgb(114, 114, 114);
 
 }
 
 body {
     margin: 0;
+    background-color: rgb(147, 147, 147);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .textS1 {
-    color: rgb(0, 0, 0);
+    color: rgb(243, 243, 243);
     text-align: center;
     padding: 5px;
 }
@@ -41,7 +45,7 @@ body {
 }
 
 .lineS1 {
-    background-color: rgb(155, 155, 155);
+    background-color: rgb(150, 150, 150);
     padding: 5px;
 }
 
@@ -69,5 +73,58 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    border: 20px solid rgb(150, 150, 150);
+    border: 20px solid rgb(160, 160, 160);
+}
+
+.boxS3 {
+    background-color: rgb(68, 68, 68);
+    color: rgb(226, 226, 226);
+    padding: 12px;
+    text-align: left;
+    display: flex;
+    margin-left: 0px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 13px double rgb(160, 160, 160);
+}
+
+.padding {
+    background-color: rgb(150, 150, 150);
+    padding: 3px;
+    text-align: left;
+    display: flex;
+}
+
+.buttonS1 {
+    color: rgb(231, 230, 230);
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+    background-color: rgba(116, 116, 116, 0.842);
+    padding: 12px;
+    border: 2px solid rgb(117, 117, 117);
+    font-weight: bold;
+    font-size: large;
+}
+
+.buttonS1:hover {
+    border: 2px solid rgb(185, 185, 185);
+    font-weight: bolder;
+    background-color: rgb(114, 114, 114);
+}
+
+.fontS1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fontS2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.fontS3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+}
+
+.fontS4 {
+    font-family: 'Times New Roman', Times, serif
 }
